@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     text-align: center; 
+}
+
+button {
+    height: 10vh;
+    width: 25vw;
+    margin: 10px;
+    
+}
+
+button:hover {
+    background-color: red;
+    color: #ffff;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+button:active{
+    background-color: pink;
+    color: red;
+    border: none;
+}
+
+div{
+    background-color: green;
+    width: 15vw;
+    margin: 0 auto; /* somente em elementos block */
+    
+}
+
+span { /* elementos inline nao recebem altura e largura - usar display: block*/
+    background-color: blue;
+    width: 25vw;
+    height: 15vh;
+    margin: 0 auto;
+    display: block;
+}
+
+ul{
+    text-align: right;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    height: 10vh;
+    width: 20vw;
+    margin: 10px;
+    margin-left: 5em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+li:nth-child(1){
+    background-color: lightblue;
+}
+
+li:nth-child(2){
+    background-color: lightcoral;
+}
+
+li:nth-child(3){
+    background-color: lightgray;
+}
+

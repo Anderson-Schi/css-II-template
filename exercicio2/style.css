@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightcoral;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    border: 3px solid black;
+}
+
+main {
+    background-color: lightgray;
+    height: 300vh;
+    border: 5px dashed blue;
+}
+
+footer {
+    background-color: lightslategray;
+    height: 10vh;
+    border: 3px dotted black;
+}
+
+.contato {
+    height: 10vh;
+    width: 10vw;
+    background-color: green;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    text-align: center;
+
+
+}

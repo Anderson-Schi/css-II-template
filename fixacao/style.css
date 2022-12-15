@@ -17,6 +17,12 @@
     background-color: #e8e4e6;
     margin: 10px;
   }
+
+  aside{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+  }
   
   section{
     height: 120px;
@@ -25,13 +31,29 @@
     padding: 20px;
     margin: 10px 0;
   }
+
+  button:active{
+    background-color: green;
+  }
+
+  .sec1{
+    text-align: center;
+  }
+
   
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
+    text-align: center;
+  }
+
+  footer:hover{
+    background-color: yellow;
   }
